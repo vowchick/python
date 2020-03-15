@@ -1,0 +1,4013 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+ <head>
+  <title>
+   A Agilent Technologies, Inc. Stock Quote
+  </title>
+  <meta content="Stock screener for investors and traders, financial visualizations." name="description"/>
+  <meta content="Stock Screener, Charts, Quotes, Maps, News, Financial Visualizations, Research, Trading Systems" name="keywords"/>
+  <meta content="no" http-equiv="imagetoolbar"/>
+  <meta content="no-cache" http-equiv="pragma"/>
+  <meta content="no-cache" http-equiv="cache-control"/>
+  <meta content="-1" http-equiv="Expires"/>
+  <link href="//fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet" type="text/css"/>
+  <link href="/finviz.css?rev=114" rel="stylesheet" type="text/css"/>
+  <link href="/favicon_2x.png" rel="icon" sizes="32x32" type="image/png"/>
+  <link href="/favicon.png" rel="icon" sizes="16x16" type="image/png"/>
+  <script src="/script/boxover.js?rev=137" type="text/javascript">
+  </script>
+  <script src="/script/lightup.js?rev=137" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   FinvizSettings = {hasUserPremium: false, name: ""};
+  </script>
+  <script src="/js/libs/shims.min.js?rev=137" type="text/javascript">
+  </script>
+  <script src="/js/libs/d3-json.js?rev=137" type="text/javascript">
+  </script>
+  <script src="/script/ajax.js" type="text/javascript">
+  </script>
+  <script src="/script/quote.js?rev=137" type="text/javascript">
+  </script>
+  <script src="/script/ta_settings.js?rev=137" type="text/javascript">
+  </script>
+ </head>
+ <body bgcolor="#ffffff" onload="(typeof StocktwitsInit === 'function' &amp;&amp; StocktwitsInit());(SetSearchExt &amp;&amp; SetSearchExt('&amp;ty=c&amp;ta=1&amp;p=d'));" style="margin:0">
+  <div id="unsupported-browser">
+   Your browser is no longer supported. Please,
+   <a href="https://whatbrowser.org/" target="_blank">
+    upgrade your browser.
+   </a>
+  </div>
+  <table border="0" cellpadding="0" cellspacing="0" class="header" style="min-width: 1000px" width="100%">
+   <tr valign="top">
+    <td>
+     <script type="text/javascript">
+      if(document.body.clientWidth>1500){document.write('<table align="center" width="1425px" cellpadding="0" cellspacing="0" border="0" style="table-layout: fixed; min-width: 1000px">')}else{document.write('<table align="center" width="95%" style="max-width: 1425px; min-width: 1000px; table-layout: fixed" cellpadding="0" cellspacing="0" border="0">')}
+     </script>
+    </td>
+   </tr>
+   <tr>
+    <td width="30%">
+     <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+       <td height="50" valign="middle">
+        <a class="logo" href="/">
+        </a>
+       </td>
+      </tr>
+      <tr>
+       <td class="search" id="search" style="padding-top: 4px">
+        <form style="margin: 0">
+         <input placeholder="Search ticker, company or profile" type="text" value=""/>
+         <span class="fa fa-search">
+         </span>
+        </form>
+       </td>
+      </tr>
+     </table>
+    </td>
+    <td style="padding-bottom: 4px" valign="bottom">
+     <div id="microbar_position" style="height: 31px">
+     </div>
+    </td>
+    <td align="right" style="position:relative;" width="728">
+     <div id="banner_position" style="position:absolute;right:0;top:0;overflow:hidden;height:96px">
+     </div>
+    </td>
+   </tr>
+  </table>
+  <tr>
+   <td style="font-size:0" width="1000">
+    <img border="0" height="1" src="/gfx/nic2x2.gif" width="1000"/>
+   </td>
+  </tr>
+  <table border="0" cellpadding="0" cellspacing="0" class="navbar" height="30" width="100%">
+   <tr>
+    <td height="30">
+     <script type="text/javascript">
+      if(document.body.clientWidth>1500){document.write('<table align="center" width="1425px" cellpadding="0" cellspacing="0" border="0" style="white-space: nowrap; min-width: 1000px">')}else{document.write('<table align="center" width="95%" style="max-width:1425px;white-space: nowrap;min-width: 1000px" cellpadding="0" cellspacing="0" border="0">')}
+     </script>
+    </td>
+   </tr>
+   <tr height="30">
+    <td>
+     <a class="nav-link is-first" href="/">
+      Home
+     </a>
+    </td>
+    <td>
+     <a class="nav-link" href="/news.ashx">
+      News
+     </a>
+    </td>
+    <td>
+     <a class="nav-link" href="/screener.ashx">
+      Screener
+     </a>
+    </td>
+    <td>
+     <a class="nav-link" href="/map.ashx">
+      Maps
+     </a>
+    </td>
+    <td>
+     <a class="nav-link" href="/groups.ashx">
+      Groups
+     </a>
+    </td>
+    <td>
+     <a class="nav-link" href="/portfolio.ashx">
+      Portfolio
+     </a>
+    </td>
+    <td>
+     <a class="nav-link" href="/insidertrading.ashx">
+      Insider
+     </a>
+    </td>
+    <td>
+     <a class="nav-link" href="/futures.ashx">
+      Futures
+     </a>
+    </td>
+    <td>
+     <a class="nav-link" href="/forex.ashx">
+      Forex
+     </a>
+    </td>
+    <td>
+     <a class="nav-link" href="/crypto.ashx">
+      Crypto
+     </a>
+    </td>
+    <td>
+     <a class="nav-link" href="/backtests.ashx">
+      Backtests
+     </a>
+    </td>
+    <td>
+     <a class="nav-link is-elite" href="/elite.ashx">
+      Elite
+     </a>
+    </td>
+    <td style="width: 100%">
+    </td>
+    <td class="time" id="time">
+    </td>
+    <td>
+     <a class="nav-link is-help" href="/help/screener.ashx">
+      <span class="fa fa-question-circle">
+      </span>
+      Help
+     </a>
+    </td>
+    <td>
+     <a class="nav-link sign-in" href="/login.ashx">
+      Login
+     </a>
+    </td>
+    <td>
+     <a class="nav-link sign-up" href="/register.ashx">
+      Register
+     </a>
+    </td>
+   </tr>
+  </table>
+  <script type="text/javascript">
+   if(document.body.clientWidth>1500){document.write('<table align="center" width="1425px" cellpadding="0" cellspacing="0" border="0">')}else{document.write('<table align="center" width="95%" style="max-width:1425px;" cellpadding="0" cellspacing="0" border="0">')}
+  </script>
+  <tr>
+   <td>
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+     <tr>
+      <td>
+       <img alt="" border="0" height="7" src="/gfx/nic2x2.gif" width="2"/>
+      </td>
+     </tr>
+     <tr>
+      <td width="100%">
+       <img alt="" border="0" height="15" src="/gfx/nic2x2.gif" width="2"/>
+      </td>
+     </tr>
+     <tr>
+      <td width="100%">
+       <div id="quote-ad" style="background: #fffce5; border: 1px solid #fee500; color: #363a46; display: none; font-family: Lato; font-size: 13px; line-height: 36px; text-align: center; width: 945px; margin: -10px auto 10px auto;position: relative;">
+        <b>
+         TIP:
+        </b>
+        <a href="/elite.ashx?utm_source=finviz&amp;utm_medium=banner&amp;utm_campaign=quote" onclick="ga('send', 'event', 'bannerQuote', 'click')" style="color: #1E6DC0;" target="blank">
+         Upgrade to FINVIZ*Elite
+        </a>
+        to get real-time quotes, intraday charts, and advanced charting tools.
+        <a class="close" href="javascript:void(0)" onclick="Finviz.quoteAd.close();" style="
+                            position: absolute;
+                            margin-right: 0;
+                            right: 10px;
+                            color: #363a46;
+                            text-decoration: none;
+	                    " title="Close">
+         ×
+        </a>
+       </div>
+       <script async="" src="/js/quote_a.js">
+       </script>
+      </td>
+     </tr>
+     <tr valign="bottom">
+      <td align="center">
+       <table border="0" cellpadding="0" cellspacing="0">
+        <tr>
+         <td align="left" class="fullview-links" valign="center">
+          <a class="tab-link" href="javascript:Publish('t=A&amp;ty=c&amp;ta=1&amp;p=d&amp;s=l')">
+           publish chart
+          </a>
+          |
+          <a class="tab-link" href="/save_to_portfolio.ashx?t=A">
+           save to portfolio
+          </a>
+          |
+          <a class="tab-link" href="/create_alert.ashx?t=A">
+           create alert
+          </a>
+          <img alt="" border="0" height="14" src="/gfx/nic2x2.gif" width="20"/>
+          <span class="count-text">
+           <b>
+            Type:
+           </b>
+          </span>
+          <a class="tab-link" href="quote.ashx?t=A&amp;ty=c&amp;ta=0&amp;p=d&amp;b=1">
+           candle
+          </a>
+          |
+          <a class="tab-link" href="quote.ashx?t=A&amp;ty=l&amp;ta=0&amp;p=d&amp;b=1">
+           line
+          </a>
+          |
+          <a class="tab-link" href="quote.ashx?t=A&amp;ty=c&amp;ta=1&amp;p=d&amp;b=1">
+           <b>
+            advanced
+           </b>
+          </a>
+          |
+          <a class="tab-link" href="/elite.ashx">
+           interactive
+          </a>
+          |
+          <a class="tab-link" href="/elite.ashx">
+           perf
+          </a>
+          <span class="count-text">
+           <b>
+            Timeframe:
+           </b>
+          </span>
+          <a class="tab-link" href="elite.ashx">
+           intraday
+          </a>
+          |
+          <a class="tab-link" href="quote.ashx?t=A&amp;ty=c&amp;ta=1&amp;p=d&amp;b=1">
+           <b>
+            daily
+           </b>
+          </a>
+          |
+          <a class="tab-link" href="quote.ashx?t=A&amp;ty=c&amp;ta=0&amp;p=w&amp;b=1">
+           weekly
+          </a>
+          |
+          <a class="tab-link" href="quote.ashx?t=A&amp;ty=c&amp;ta=0&amp;p=m&amp;b=1">
+           monthly
+          </a>
+         </td>
+         <td align="left" class="ta-settings-button" valign="top">
+          <a class="ta-settings-button" href="elite.ashx">
+           Settings
+           <img alt="" border="0" height="9" src="gfx/ta_settings_arrow_d.gif" width="21"/>
+          </a>
+         </td>
+        </tr>
+       </table>
+      </td>
+     </tr>
+     <tr>
+      <td width="100%">
+       <img alt="" border="0" height="16" src="gfx/nic2x2.gif" width="2"/>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+         <td align="center" valign="top">
+          <img alt="A Agilent Technologies, Inc. daily Stock Chart" border="0" height="340" id="chart0" src="chart.ashx?t=A&amp;ty=c&amp;ta=1&amp;p=d&amp;s=l"/>
+         </td>
+        </tr>
+        <tr>
+         <td align="center" valign="top">
+          <table bgcolor="#ffffff" cellpadding="3" cellspacing="0" class="fullview-title" width="100%">
+           <tr>
+            <td align="center">
+             <a class="fullview-ticker" href="quote.ashx?t=A&amp;ty=c&amp;ta=1&amp;p=d&amp;b=1" id="ticker">
+              A
+             </a>
+             <span class="body-table">
+              [NYSE]
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="center">
+             <a class="tab-link" href="http://www.agilent.com" target="_blank">
+              <b>
+               Agilent Technologies, Inc.
+              </b>
+             </a>
+            </td>
+           </tr>
+           <tr>
+            <td align="center" class="fullview-links">
+             <a class="tab-link" href="screener.ashx?v=111&amp;f=sec_healthcare">
+              Healthcare
+             </a>
+             |
+             <a class="tab-link" href="screener.ashx?v=111&amp;f=ind_medicallaboratoriesresearch">
+              Medical Laboratories &amp; Research
+             </a>
+             |
+             <a class="tab-link" href="screener.ashx?v=111&amp;f=geo_usa">
+              USA
+             </a>
+            </td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <table cellpding="0" cellspacing="0" class="fullview-links" width="100%">
+           <td align="left" width="80%">
+           </td>
+           <td align="right" width="20%">
+            <a class="tab-link" href="https://www.marketwatch.com/investing/stock/A/financials" target="_blank">
+             statements
+            </a>
+           </td>
+          </table>
+         </td>
+        </tr>
+       </table>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <table border="0" cellpadding="3" cellspacing="0" class="snapshot-table2" width="100%">
+        <tr class="table-dark-row">
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Major index membership] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Index
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           S&amp;P 500
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Price-to-Earnings (ttm)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          P/E
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           35.11
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Diluted EPS (ttm)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          EPS (ttm)
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           2.42
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Insider ownership] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Insider Own
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           0.40%
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Shares outstanding] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Shs Outstand
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           308.10M
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Performance (Week)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Perf Week
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           <span style="color:#aa0000;">
+            -0.47%
+           </span>
+          </b>
+         </td>
+        </tr>
+        <tr class="table-dark-row">
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Market capitalization] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Market Cap
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           26.21B
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Forward Price-to-Earnings (next fiscal year)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Forward P/E
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           22.38
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[EPS estimate for next year] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          EPS next Y
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           3.80
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Insider transactions (6-Month change in Insider Ownership)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Insider Trans
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           -10.10%
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Shares float] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Shs Float
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           308.10M
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Performance (Month)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Perf Month
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           <span style="color:#aa0000;">
+            -5.61%
+           </span>
+          </b>
+         </td>
+        </tr>
+        <tr class="table-dark-row">
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Income (ttm)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Income
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           764.00M
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Price-to-Earnings-to-Growth] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          PEG
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           <span style="color:#aa0000;">
+            3.96
+           </span>
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[EPS estimate for next quarter] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          EPS next Q
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           0.76
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Institutional ownership] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Inst Own
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           88.20%
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Short interest share] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Short Float
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           1.65%
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Performance (Quarter)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Perf Quarter
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           <span style="color:#008800;">
+            7.29%
+           </span>
+          </b>
+         </td>
+        </tr>
+        <tr class="table-dark-row">
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Revenue (ttm)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Sales
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           5.24B
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Price-to-Sales (ttm)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          P/S
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           5.01
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[EPS growth this year] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          EPS this Y
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           <span style="color:#008800;">
+            26.10%
+           </span>
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Institutional transactions (3-Month change in Institutional Ownership)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Inst Trans
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           0.19%
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Short interest ratio] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Short Ratio
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           2.74
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Performance (Half Year)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Perf Half Y
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           <span style="color:#008800;">
+            17.83%
+           </span>
+          </b>
+         </td>
+        </tr>
+        <tr class="table-dark-row">
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Book value per share (mrq)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Book/sh
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           15.42
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Price-to-Book (mrq)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          P/B
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           <span style="color:#aa0000;">
+            5.52
+           </span>
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[EPS growth next year] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          EPS next Y
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           11.10%
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Return on Assets (ttm)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          ROA
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           11.90%
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Analysts' mean target price] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Target Price
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           <span style="color:#008800;">
+            90.31
+           </span>
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Performance (Year)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Perf Year
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           <span style="color:#008800;">
+            9.22%
+           </span>
+          </b>
+         </td>
+        </tr>
+        <tr class="table-dark-row">
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Cash per share (mrq)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Cash/sh
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           4.49
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Price to cash per share (mrq)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          P/C
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           18.97
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Long term annual growth estimate (5 years)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          EPS next 5Y
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           8.88%
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Return on Equity (ttm)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          ROE
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           21.80%
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[52-Week trading range] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          52W Range
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           <small>
+            65.35 - 90.64
+           </small>
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Performance (Year To Date)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Perf YTD
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           <span style="color:#aa0000;">
+            -0.28%
+           </span>
+          </b>
+         </td>
+        </tr>
+        <tr class="table-dark-row">
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Dividend (annual)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Dividend
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           0.72
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Price to Free Cash Flow (ttm)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          P/FCF
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           36.61
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Annual EPS growth past 5 years] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          EPS past 5Y
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           <span style="color:#008800;">
+            37.50%
+           </span>
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Return on Investment (ttm)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          ROI
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           15.20%
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Distance from 52-Week High] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          52W High
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           <span style="color:#aa0000;">
+            -11.48%
+           </span>
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Beta] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Beta
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           1.36
+          </b>
+         </td>
+        </tr>
+        <tr class="table-dark-row">
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Dividend yield (annual)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Dividend %
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           0.85%
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Quick Ratio (mrq)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Quick Ratio
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           1.20
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Annual sales growth past 5 years] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Sales past 5Y
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           5.00%
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Gross Margin (ttm)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Gross Margin
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           <span style="color:#008800;">
+            53.90%
+           </span>
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Distance from 52-Week Low] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          52W Low
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           <span style="color:#008800;">
+            22.78%
+           </span>
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Average True Range (14)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          ATR
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           1.55
+          </b>
+         </td>
+        </tr>
+        <tr class="table-dark-row">
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Full time employees] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Employees
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           16300
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Current Ratio (mrq)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Current Ratio
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           1.50
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Quarterly revenue growth (yoy)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Sales Q/Q
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           5.60%
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Operating Margin (ttm)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Oper. Margin
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           18.10%
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Relative Strength Index] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          RSI (14)
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           32.96
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Volatility (Week, Month)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Volatility
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           <small>
+            1.91% 1.63%
+           </small>
+          </b>
+         </td>
+        </tr>
+        <tr class="table-dark-row">
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Stock has options trading on a market exchange] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Optionable
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           Yes
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Total Debt to Equity (mrq)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Debt/Eq
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           <span style="color:#aa0000;">
+            0.51
+           </span>
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Quarterly earnings growth (yoy)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          EPS Q/Q
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           <span style="color:#aa0000;">
+            -6.40%
+           </span>
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Net Profit Margin (ttm)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Profit Margin
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           <span style="color:#008800;">
+            20.50%
+           </span>
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Relative volume] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Rel Volume
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           1.17
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Previous close] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Prev Close
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           85.07
+          </b>
+         </td>
+        </tr>
+        <tr class="table-dark-row">
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Stock available to sell short] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Shortable
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           Yes
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Long Term Debt to Equity (mrq)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          LT Debt/Eq
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           0.38
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Earnings date&lt;br&gt;&lt;br&gt;BMO = Before Market Open&lt;br&gt;AMC = After Market Close] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Earnings
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           Feb 18 AMC
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Dividend Payout Ratio (ttm)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Payout
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           18.50%
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Average volume (3 month)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Avg Volume
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           1.86M
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Current stock price] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Price
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           80.24
+          </b>
+         </td>
+        </tr>
+        <tr class="table-dark-row">
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Analysts' mean recommendation (1=Buy 5=Sell)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Recom
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           2.20
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Distance from 20-Day Simple Moving Average] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          SMA20
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           <span style="color:#aa0000;">
+            -5.64%
+           </span>
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Distance from 50-Day Simple Moving Average] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          SMA50
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           <span style="color:#aa0000;">
+            -6.32%
+           </span>
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Distance from 200-Day Simple Moving Average] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          SMA200
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           <span style="color:#008800;">
+            4.98%
+           </span>
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Volume] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Volume
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           1,624,503
+          </b>
+         </td>
+         <td align="left" class="snapshot-td2-cp" title="cssbody=[tooltip_short_bdy] cssheader=[tooltip_short_hdr] body=[Performance (today)] offsetx=[10] offsety=[20] delay=[300]" width="7%">
+          Change
+         </td>
+         <td align="left" class="snapshot-td2" width="8%">
+          <b>
+           <span style="color:#aa0000;">
+            -5.68%
+           </span>
+          </b>
+         </td>
+        </tr>
+       </table>
+      </td>
+     </tr>
+    </table>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+     <tr>
+      <td>
+       <img height="10" src="gfx/nic2x2.gif" width="685"/>
+      </td>
+     </tr>
+     <tr>
+      <td align="center">
+       <script charset="utf-8" src="//ads.investingchannel.com/adtags/finviz/quotepages/970x91.js?pc=xb&amp;" type="text/javascript">
+       </script>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <img height="10" src="gfx/nic2x2.gif" width="685"/>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <table border="0" cellpadding="0" cellspacing="0" class="fullview-ratings-outer" width="100%">
+        <tr class="body-table-rating-downgrade">
+         <td class="fullview-ratings-inner">
+          <table border="0" cellpadding="0" cellspacing="0">
+           <tr class="body-table-rating-downgrade">
+            <td align="left" width="120">
+             Feb-24-20
+            </td>
+            <td align="left" width="200">
+             <b>
+              Downgrade
+             </b>
+            </td>
+            <td align="left" width="250">
+             Needham
+            </td>
+            <td align="left" width="250">
+             Buy → Hold
+            </td>
+            <td align="left" width="150">
+            </td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+        <tr class="body-table-rating-neutral">
+         <td class="fullview-ratings-inner">
+          <table border="0" cellpadding="0" cellspacing="0">
+           <tr class="body-table-rating-neutral">
+            <td align="left" width="120">
+             Jan-08-20
+            </td>
+            <td align="left" width="200">
+             <b>
+              Initiated
+             </b>
+            </td>
+            <td align="left" width="250">
+             Wells Fargo
+            </td>
+            <td align="left" width="250">
+             Overweight
+            </td>
+            <td align="left" width="150">
+             $100
+            </td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+        <tr class="body-table-rating-neutral">
+         <td class="fullview-ratings-inner">
+          <table border="0" cellpadding="0" cellspacing="0">
+           <tr class="body-table-rating-neutral">
+            <td align="left" width="120">
+             Jan-07-20
+            </td>
+            <td align="left" width="200">
+             <b>
+              Initiated
+             </b>
+            </td>
+            <td align="left" width="250">
+             Citigroup
+            </td>
+            <td align="left" width="250">
+             Neutral
+            </td>
+            <td align="left" width="150">
+             $85
+            </td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+        <tr class="body-table-rating-neutral">
+         <td class="fullview-ratings-inner">
+          <table border="0" cellpadding="0" cellspacing="0">
+           <tr class="body-table-rating-neutral">
+            <td align="left" width="120">
+             Nov-26-19
+            </td>
+            <td align="left" width="200">
+             <b>
+              Reiterated
+             </b>
+            </td>
+            <td align="left" width="250">
+             Needham
+            </td>
+            <td align="left" width="250">
+             Buy
+            </td>
+            <td align="left" width="150">
+             $92 → $85
+            </td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+        <tr class="body-table-rating-neutral">
+         <td class="fullview-ratings-inner">
+          <table border="0" cellpadding="0" cellspacing="0">
+           <tr class="body-table-rating-neutral">
+            <td align="left" width="120">
+             Nov-15-19
+            </td>
+            <td align="left" width="200">
+             <b>
+              Initiated
+             </b>
+            </td>
+            <td align="left" width="250">
+             Stifel
+            </td>
+            <td align="left" width="250">
+             Hold
+            </td>
+            <td align="left" width="150">
+            </td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+        <tr class="body-table-rating-downgrade">
+         <td class="fullview-ratings-inner">
+          <table border="0" cellpadding="0" cellspacing="0">
+           <tr class="body-table-rating-downgrade">
+            <td align="left" width="120">
+             Oct-18-19
+            </td>
+            <td align="left" width="200">
+             <b>
+              Downgrade
+             </b>
+            </td>
+            <td align="left" width="250">
+             UBS
+            </td>
+            <td align="left" width="250">
+             Buy → Neutral
+            </td>
+            <td align="left" width="150">
+             $82
+            </td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+        <tr class="body-table-rating-downgrade">
+         <td class="fullview-ratings-inner">
+          <table border="0" cellpadding="0" cellspacing="0">
+           <tr class="body-table-rating-downgrade">
+            <td align="left" width="120">
+             Jul-16-19
+            </td>
+            <td align="left" width="200">
+             <b>
+              Downgrade
+             </b>
+            </td>
+            <td align="left" width="250">
+             BofA/Merrill
+            </td>
+            <td align="left" width="250">
+             Buy → Neutral
+            </td>
+            <td align="left" width="150">
+             $76
+            </td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+        <tr class="body-table-rating-downgrade">
+         <td class="fullview-ratings-inner">
+          <table border="0" cellpadding="0" cellspacing="0">
+           <tr class="body-table-rating-downgrade">
+            <td align="left" width="120">
+             Jul-15-19
+            </td>
+            <td align="left" width="200">
+             <b>
+              Downgrade
+             </b>
+            </td>
+            <td align="left" width="250">
+             Barclays
+            </td>
+            <td align="left" width="250">
+             Overweight → Equal Weight
+            </td>
+            <td align="left" width="150">
+             $86 → $78
+            </td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+        <tr class="body-table-rating-neutral">
+         <td class="fullview-ratings-inner">
+          <table border="0" cellpadding="0" cellspacing="0">
+           <tr class="body-table-rating-neutral">
+            <td align="left" width="120">
+             Jun-11-19
+            </td>
+            <td align="left" width="200">
+             <b>
+              Initiated
+             </b>
+            </td>
+            <td align="left" width="250">
+             Piper Jaffray
+            </td>
+            <td align="left" width="250">
+             Overweight
+            </td>
+            <td align="left" width="150">
+             $83
+            </td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+        <tr class="body-table-rating-neutral">
+         <td class="fullview-ratings-inner">
+          <table border="0" cellpadding="0" cellspacing="0">
+           <tr class="body-table-rating-neutral">
+            <td align="left" width="120">
+             May-30-19
+            </td>
+            <td align="left" width="200">
+             <b>
+              Initiated
+             </b>
+            </td>
+            <td align="left" width="250">
+             Wolfe Research
+            </td>
+            <td align="left" width="250">
+             Peer Perform
+            </td>
+            <td align="left" width="150">
+            </td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+        <tr class="body-table-rating-neutral">
+         <td class="fullview-ratings-inner">
+          <table border="0" cellpadding="0" cellspacing="0">
+           <tr class="body-table-rating-neutral">
+            <td align="left" width="120">
+             Mar-15-19
+            </td>
+            <td align="left" width="200">
+             <b>
+              Initiated
+             </b>
+            </td>
+            <td align="left" width="250">
+             UBS
+            </td>
+            <td align="left" width="250">
+             Buy
+            </td>
+            <td align="left" width="150">
+             $92
+            </td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+        <tr class="body-table-rating-neutral">
+         <td class="fullview-ratings-inner">
+          <table border="0" cellpadding="0" cellspacing="0">
+           <tr class="body-table-rating-neutral">
+            <td align="left" width="120">
+             Feb-25-19
+            </td>
+            <td align="left" width="200">
+             <b>
+              Reiterated
+             </b>
+            </td>
+            <td align="left" width="250">
+             Needham
+            </td>
+            <td align="left" width="250">
+             Buy
+            </td>
+            <td align="left" width="150">
+             $77 → $88
+            </td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+        <tr class="body-table-rating-neutral">
+         <td class="fullview-ratings-inner">
+          <table border="0" cellpadding="0" cellspacing="0">
+           <tr class="body-table-rating-neutral">
+            <td align="left" width="120">
+             Feb-21-19
+            </td>
+            <td align="left" width="200">
+             <b>
+              Reiterated
+             </b>
+            </td>
+            <td align="left" width="250">
+             BofA/Merrill
+            </td>
+            <td align="left" width="250">
+             Buy
+            </td>
+            <td align="left" width="150">
+             $78 → $87
+            </td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+        <tr class="body-table-rating-neutral">
+         <td class="fullview-ratings-inner">
+          <table border="0" cellpadding="0" cellspacing="0">
+           <tr class="body-table-rating-neutral">
+            <td align="left" width="120">
+             Jan-03-19
+            </td>
+            <td align="left" width="200">
+             <b>
+              Initiated
+             </b>
+            </td>
+            <td align="left" width="250">
+             Needham
+            </td>
+            <td align="left" width="250">
+             Buy
+            </td>
+            <td align="left" width="150">
+             $77
+            </td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+        <tr class="body-table-rating-downgrade">
+         <td class="fullview-ratings-inner">
+          <table border="0" cellpadding="0" cellspacing="0">
+           <tr class="body-table-rating-downgrade">
+            <td align="left" width="120">
+             Nov-12-18
+            </td>
+            <td align="left" width="200">
+             <b>
+              Downgrade
+             </b>
+            </td>
+            <td align="left" width="250">
+             Cleveland Research
+            </td>
+            <td align="left" width="250">
+             Buy → Neutral
+            </td>
+            <td align="left" width="150">
+            </td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+        <tr class="body-table-rating-upgrade">
+         <td class="fullview-ratings-inner">
+          <table border="0" cellpadding="0" cellspacing="0">
+           <tr class="body-table-rating-upgrade">
+            <td align="left" width="120">
+             Apr-09-18
+            </td>
+            <td align="left" width="200">
+             <b>
+              Upgrade
+             </b>
+            </td>
+            <td align="left" width="250">
+             Goldman
+            </td>
+            <td align="left" width="250">
+             Neutral → Buy
+            </td>
+            <td align="left" width="150">
+            </td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+        <tr class="body-table-rating-neutral">
+         <td class="fullview-ratings-inner">
+          <table border="0" cellpadding="0" cellspacing="0">
+           <tr class="body-table-rating-neutral">
+            <td align="left" width="120">
+             Nov-21-17
+            </td>
+            <td align="left" width="200">
+             <b>
+              Reiterated
+             </b>
+            </td>
+            <td align="left" width="250">
+             Barclays
+            </td>
+            <td align="left" width="250">
+             Overweight
+            </td>
+            <td align="left" width="150">
+             $67 → $71
+            </td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+        <tr class="body-table-rating-neutral">
+         <td class="fullview-ratings-inner">
+          <table border="0" cellpadding="0" cellspacing="0">
+           <tr class="body-table-rating-neutral">
+            <td align="left" width="120">
+             Sep-26-17
+            </td>
+            <td align="left" width="200">
+             <b>
+              Resumed
+             </b>
+            </td>
+            <td align="left" width="250">
+             Goldman
+            </td>
+            <td align="left" width="250">
+             Neutral
+            </td>
+            <td align="left" width="150">
+             $68
+            </td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+        <tr class="body-table-rating-upgrade">
+         <td class="fullview-ratings-inner">
+          <table border="0" cellpadding="0" cellspacing="0">
+           <tr class="body-table-rating-upgrade">
+            <td align="left" width="120">
+             Jul-13-17
+            </td>
+            <td align="left" width="200">
+             <b>
+              Upgrade
+             </b>
+            </td>
+            <td align="left" width="250">
+             Wells Fargo
+            </td>
+            <td align="left" width="250">
+             Market Perform → Outperform
+            </td>
+            <td align="left" width="150">
+            </td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+        <tr class="body-table-rating-upgrade">
+         <td class="fullview-ratings-inner">
+          <table border="0" cellpadding="0" cellspacing="0">
+           <tr class="body-table-rating-upgrade">
+            <td align="left" width="120">
+             Mar-15-17
+            </td>
+            <td align="left" width="200">
+             <b>
+              Upgrade
+             </b>
+            </td>
+            <td align="left" width="250">
+             Morgan Stanley
+            </td>
+            <td align="left" width="250">
+             Equal-Weight → Overweight
+            </td>
+            <td align="left" width="150">
+            </td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+       </table>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <img height="10" src="gfx/nic2x2.gif" width="685"/>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <table cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+         <td>
+          <table border="0" cellpadding="1" cellspacing="0" class="fullview-news-outer" id="news-table" width="100%">
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Feb-22-20 02:08AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/edited-transcript-earnings-conference-call-212023689.html" target="_blank">
+              Edited Transcript of A earnings conference call or presentation 18-Feb-20 9:30pm GMT
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Thomson Reuters StreetEvents
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Feb-21-20 10:15AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/fitbit-fit-q4-loss-wider-151503083.html" target="_blank">
+              Fitbit (FIT) Q4 Loss Wider Than Estimated, Revenues Lag
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Zacks
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Feb-20-20 09:21AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/time-markets-investing-pro-february-142102737.html" target="_blank">
+              How to Time the Markets Like an Investing Pro - February 20, 2020
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Zacks
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Feb-19-20 01:20PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://www.marketwatch.com/story/what-apple-walmart-and-other-us-companies-are-saying-about-the-coronavirus-2020-02-18?siteid=yhoof2&amp;yptr=yahoo" target="_blank">
+              What Apple, Walmart and other U.S. companies are saying about the coronavirus outbreak
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              MarketWatch
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" width="130">
+             01:19PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/garmins-grmn-q4-earnings-revenues-181906738.html" target="_blank">
+              Garmin's (GRMN) Q4 Earnings &amp;amp; Revenues Surpass Estimates
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Zacks
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" width="130">
+             11:54AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://www.marketwatch.com/story/coronavirus-update-more-than-75000-cases-and-2000-deaths-walmart-predicts-q1-impact-on-eps-2020-02-19?siteid=yhoof2&amp;yptr=yahoo" target="_blank">
+              Coronavirus update: More than 75,000 cases and 2,000 deaths, Walmart predicts Q1 impact on EPS
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              MarketWatch
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" width="130">
+             07:41AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/agilent-q1-earnings-line-estimates-124112645.html" target="_blank">
+              Agilent (A) Q1 Earnings In Line With Estimates, Revenues Top
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Zacks
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Feb-18-20 04:27PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://www.marketwatch.com/story/agilent-stock-slips-as-coronavirus-dings-outlook-2020-02-18?siteid=yhoof2&amp;yptr=yahoo" target="_blank">
+              Agilent stock slips as coronavirus dings outlook
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              MarketWatch
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" width="130">
+             04:05PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/agilent-technologies-reports-first-quarter-210500280.html" target="_blank">
+              Agilent Technologies Reports First Quarter Fiscal Year 2020 Financial Results
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Business Wire
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" width="130">
+             03:57PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/bill-ackmans-pershing-square-4th-205727937.html" target="_blank">
+              Bill Ackman's Pershing Square: 4th-Quarter Update
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              GuruFocus.com
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" width="130">
+             11:03AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/earnings-calendar-week-dec-11-192003013-164644962.html" target="_blank">
+              Earnings Reports for the Week of Feb. 17-21 (SAM, WING, WMT)
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Kiplinger
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" width="130">
+             06:39AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/godaddy-gddy-q4-earnings-miss-113911461.html" target="_blank">
+              GoDaddy (GDDY) Q4 Earnings Miss Estimates, Revenues Beat
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Zacks
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Feb-16-20 03:00PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://www.barrons.com/articles/walmart-viacomcbs-deere-and-other-stocks-for-investors-to-watch-this-week-51581883218?siteid=yhoof2&amp;yptr=yahoo" target="_blank">
+              Walmart, ViacomCBS, Deere, and Other Stocks for Investors to Watch This Week
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Barrons.com
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Feb-14-20 05:06PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/edited-transcript-earnings-conference-call-162506035.html" target="_blank">
+              Edited Transcript of A earnings conference call or presentation 14-Feb-18 9:30pm GMT
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Thomson Reuters StreetEvents
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" width="130">
+             08:56AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/tripadvisor-trip-beats-q4-earnings-135601432.html" target="_blank">
+              TripAdvisor (TRIP) Beats Q4 Earnings &amp;amp; Revenue Estimates
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Zacks
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" width="130">
+             08:50AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/alibaba-baba-surpasses-q3-earnings-135001138.html" target="_blank">
+              Alibaba (BABA) Surpasses Q3 Earnings &amp;amp; Revenue Estimates
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Zacks
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" width="130">
+             07:30AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://www.barrons.com/articles/australias-brambles-irelands-accenture-lead-on-sustainability-abroad-51581683400?siteid=yhoof2&amp;yptr=yahoo" target="_blank">
+              Australias Brambles, Irelands Accenture Are the Most Sustainable Companies Outside the U.S.
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Barrons.com
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Feb-13-20 08:47AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/applied-materials-amat-q1-earnings-134701711.html" target="_blank">
+              Applied Materials (AMAT) Q1 Earnings &amp;amp; Sales Top Estimates
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Zacks
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Feb-12-20 11:54AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://realmoney.thestreet.com/investing/agilent-technologies-could-trade-higher-in-the-coming-weeks-15237493?puc=yahoo&amp;cm_ven=YAHOO&amp;yptr=yahoo" target="_blank">
+              Agilent Technologies Passes This Acid Test
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              TheStreet.com
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" width="130">
+             09:30AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/agilent-gears-q1-earnings-whats-143002334.html" target="_blank">
+              Agilent (A) Gears Up for Q1 Earnings: What's in the Cards?
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Zacks
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Feb-11-20 12:30PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/agilent-technologies-reports-next-week-173005649.html" target="_blank">
+              Agilent Technologies (A) Reports Next Week: Wall Street Expects Earnings Growth
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Zacks
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" width="130">
+             08:21AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/strong-cloud-growth-propel-alibabas-124612959.html" target="_blank">
+              Can Strong Cloud Growth Propel Alibaba's (BABA) Q3 Earnings?
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Zacks
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Feb-10-20 11:58AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/bill-ackmans-pershing-square-chips-165838057.html" target="_blank">
+              Bill Ackman's Pershing Square Takes a Chip Off Chipotle Stake
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              GuruFocus.com
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" width="130">
+             05:01AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://www.barrons.com/articles/new-dividend-aristocrats-51581328909?siteid=yhoof2&amp;yptr=yahoo" target="_blank">
+              7 Stocks Join the Dividend Aristocrats, and Two More Numbers to Know
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Barrons.com
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Feb-07-20 10:00AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/fortive-ftv-earnings-revenues-surpass-150003719.html" target="_blank">
+              Fortive (FTV) Earnings &amp;amp; Revenues Surpass Estimates in Q4
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Zacks
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Feb-06-20 05:17PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/agilent-technologies-announces-twist-bioscience-221700662.html" target="_blank">
+              Agilent Technologies Announces Twist Bioscience Agrees to Pay $22.5 Million Settlement in IP Litigation
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Business Wire
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Feb-05-20 02:55PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://www.barrons.com/articles/bill-ackmans-pershing-square-activist-starbucks-51580932426?siteid=yhoof2&amp;yptr=yahoo" target="_blank">
+              Bill Ackmans Hedge Fund Sold Its Starbucks Stock With a 73% Gain
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Barrons.com
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" width="130">
+             01:09PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/ackmans-pershing-square-exits-starbucks-180954467.html" target="_blank">
+              Ackman's Pershing Square exits Starbucks, sticks by Chipotle, sees gains at Agilent
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Reuters
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" width="130">
+             06:04AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/agilent-technologies-inc-nyse-ceo-110433568.html" target="_blank">
+              Our Take On Agilent Technologies, Inc.'s (NYSE:A) CEO Salary
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Simply Wall St.
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Feb-04-20 02:32PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/eaton-vance-exits-celgene-trims-193223868.html" target="_blank">
+              Eaton Vance Exits Celgene, Trims Amgen Position
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              GuruFocus.com
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Jan-30-20 08:00AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://www.investors.com/news/management/leaders-and-success/keysight-technologies-nersesian-reveals-key-to-standalone-success/?src=A00220&amp;yptr=yahoo" target="_blank">
+              Keysight Technologies' Nersesian Reveals Key To Standalone Success
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Investor's Business Daily
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Jan-29-20 10:00PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/agilent-teams-indian-institute-technology-030000828.html" target="_blank">
+              Agilent Teams with Indian Institute of Technology Delhi to Enhance Biotherapeutics
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Business Wire
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" width="130">
+             10:01AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/time-markets-investing-pro-january-142102023.html" target="_blank">
+              How to Time the Markets Like an Investing Pro - January 29, 2020
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Zacks
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Jan-28-20 04:30PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/agilent-technologies-webcast-first-quarter-213000010.html" target="_blank">
+              Agilent Technologies to Webcast First Quarter Fiscal Year 2020 Financial Results Conference Call
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Business Wire
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Jan-27-20 02:00PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/agilent-introduces-cutting-edge-sureselect-190000026.html" target="_blank">
+              Agilent Introduces New Cutting-Edge SureSelect DNA Kit
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Business Wire
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Jan-23-20 03:04PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://www.bizjournals.com/triangle/news/2020/01/23/former-ceo-claims-youngsvillefirms-founder-is.html?ana=yahoo&amp;yptr=yahoo" target="_blank">
+              Former CEO claims Youngsville firm's founder is trying to cut him out of a buyout bonus
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              American City Business Journals
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" width="130">
+             08:00AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/agilent-announces-crosslab-group-leadership-130000210.html" target="_blank">
+              Agilent Announces CrossLab Group Leadership Transition
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Business Wire
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Jan-22-20 08:00AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/agilent-wins-multiple-innovation-awards-130000366.html" target="_blank">
+              Agilent Wins Multiple Innovation Awards
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Business Wire
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Jan-16-20 08:00AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/agilent-collaborates-university-researchers-investigating-130000112.html" target="_blank">
+              Agilent Collaborates with University Researchers Investigating Risk Factors for Eczema
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Business Wire
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Jan-15-20 02:38PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/parnassus-endeavor-fund-adds-cisco-193858088.html" target="_blank">
+              Parnassus Endeavor Fund Adds to Cisco, Alphabet
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              GuruFocus.com
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" width="130">
+             11:45AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/parnassus-endeavor-fund-invests-insurance-164513202.html" target="_blank">
+              Parnassus Endeavor Fund Invests in Insurance and Logistics in 4th Quarter
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              GuruFocus.com
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Jan-13-20 02:22PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/agilent-technologies-inc-nyse-delivered-192216999.html" target="_blank">
+              Agilent Technologies, Inc. (NYSE:A) Delivered A Better ROE Than Its Industry
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Simply Wall St.
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Jan-10-20 09:21AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/timing-market-possible-january-10-142102841.html" target="_blank">
+              Timing the Market, Is it Possible? - January 10, 2020
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Zacks
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Jan-07-20 04:36PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://www.barrons.com/articles/bill-ackmans-fund-gained-58-last-year-why-it-looks-like-a-buy-51578432963?siteid=yhoof2&amp;yptr=yahoo" target="_blank">
+              Bill Ackmans Fund Gained 58% Last Year. Why It Looks Like a Buy.
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Barrons.com
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Jan-02-20 08:00AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/agilent-expands-cross-vendor-cds-130000645.html" target="_blank">
+              Agilent Expands Cross-Vendor CDS Instrument Control
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Business Wire
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Dec-30-19 02:08PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/urbems-wonderful-business-series-waters-190817301.html" target="_blank">
+              Urbem's 'Wonderful Business' Series: Waters
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              GuruFocus.com
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" width="130">
+             08:00AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/agilent-compliance-services-voted-no-130000054.html" target="_blank">
+              Agilent Compliance Services Voted No. 1 in Global Survey
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Business Wire
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" width="130">
+             04:00AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/agilents-wide-moat-remains-intact-090000070.html" target="_blank">
+              Agilent's Wide Moat Remains Intact
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Morningstar
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Dec-27-19 03:11PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/did-agilent-technologies-inc-compare-201101309.html" target="_blank">
+              How Did Agilent Technologies Inc. (A) Compare Against Top Hedge Fund Stocks in 2019?
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Insider Monkey
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Dec-25-19 11:30AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/why-agilent-5-4-since-163004629.html" target="_blank">
+              Why Is Agilent (A) Up 5.4% Since Last Earnings Report?
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Zacks
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Dec-22-19 06:52AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/agilent-technologies-inc-just-reported-115244246.html" target="_blank">
+              Agilent Technologies, Inc. Just Reported Annual Earnings: Have Analysts Changed Their Mind On The Stock?
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Simply Wall St.
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Dec-20-19 08:15PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://www.barrons.com/articles/resideo-rocket-pharma-gtt-and-8-other-13d-filings-51576890901?siteid=yhoof2&amp;yptr=yahoo" target="_blank">
+              Pershing Square Takes Stake in Agilent. Plus Resideo, Rocket Pharma,  and 9 Other 13D Filings
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Barrons.com
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" width="130">
+             11:14AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/know-agilent-technologies-inc-nyse-161404640.html" target="_blank">
+              Do You Know What Agilent Technologies, Inc.'s (NYSE:A) P/E Ratio Means?
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Simply Wall St.
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Dec-19-19 04:00PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/agilent-technologies-present-j-p-210000498.html" target="_blank">
+              Agilent Technologies to Present at J.P. Morgan Healthcare Conference
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Business Wire
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Dec-17-19 04:10PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/market-timing-secrets-no-one-203308349.html" target="_blank">
+              The Market Timing Secrets No One Talks About - December 17, 2019
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Zacks
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Dec-11-19 09:47AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/theres-trading-tool-allows-traders-144746458.html" target="_blank">
+              There's A New Trading Tool That Allows Traders To Trade Cannabis With Leverage
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Benzinga
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Dec-10-19 12:58PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/premarket-prep-recap-yo-yo-175850117.html" target="_blank">
+              PreMarket Prep Recap: Yo-Yo Market And After-Hours Overshoot On Ackman's New Stake
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Benzinga
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" width="130">
+             12:14PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/bill-ackmans-pershing-square-packs-171439008.html" target="_blank">
+              Bill Ackman's Pershing Square Packs Into Agilent
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              GuruFocus.com
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" width="130">
+             10:00AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://www.barrons.com/articles/bill-ackmans-pershing-square-capital-bought-up-agilent-stock-51575990003?siteid=yhoof2&amp;yptr=yahoo" target="_blank">
+              Bill Ackmans Pershing Square Capital Bought Up Agilent Stock
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Barrons.com
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" width="130">
+             07:54AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://www.barrons.com/articles/stocks-moving-premarket-genworth-stitch-fix-chewy-agilent-51575982450?siteid=yhoof2&amp;yptr=yahoo" target="_blank">
+              Stock in Stitch Fix and Agilent Is Gaining as Worry Over Tariffs Drags on the Dow
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Barrons.com
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Dec-09-19 04:34PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/1-ackmans-pershing-square-makes-213445321.html" target="_blank">
+              UPDATE 2-Ackman's Pershing Square makes new bet on Agilent Technologies
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Reuters
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" width="130">
+             04:31PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/bill-ackman-pershing-square-reports-213133729.html" target="_blank">
+              Bill Ackmans Pershing Square Reports Stake in Agilent Technologies
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Bloomberg
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Dec-06-19 11:00AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/agilent-ranked-among-top-four-160000931.html" target="_blank">
+              Agilent Ranked Among Top Four Best Workplaces in Greater China and Receives Certification as a Best Workplace for Women in Greater China
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Business Wire
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Dec-03-19 02:23PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/hedge-funds-selling-agilent-technologies-192316298.html" target="_blank">
+              Hedge Funds Are Selling Agilent Technologies Inc. (A)
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Insider Monkey
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Dec-02-19 11:43AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/edited-transcript-earnings-conference-call-083320650.html" target="_blank">
+              Edited Transcript of A earnings conference call or presentation 25-Nov-19 9:30pm GMT
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Thomson Reuters StreetEvents
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Nov-29-19 01:55PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://www.investors.com/news/stock-market-rally-schwab-td-ameritrade-to-merge-disney-best-buy-alibaba-lead/?src=A00220&amp;yptr=yahoo" target="_blank">
+              Stock Market Rally Doesn't Take A Holiday Amid Big M&amp;A Deals; Disney, Best Buy, Alibaba Rise: Weekly Review
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Investor's Business Daily
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Nov-28-19 04:54AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/agilent-technologies-inc-just-reported-095417501.html" target="_blank">
+              Agilent Technologies, Inc. Just Reported Annual Earnings: Have Analysts Changed Their Mind On The Stock?
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Simply Wall St.
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Nov-26-19 08:14AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-stock-market-rally-fear-gauge-hits-new-low-palo-alto-networks-nutanix-ambarella/?src=A00220&amp;yptr=yahoo" target="_blank">
+              Dow Jones Futures: Palo Alto Networks Dives, Nutanix Soars; This Biotech Quadruples
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Investor's Business Daily
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" width="130">
+             08:00AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/agilent-receives-multiple-life-science-130000178.html" target="_blank">
+              Agilent Receives Multiple Life Science Industry Awards for Innovation
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Business Wire
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" width="130">
+             05:46AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/agilent-earnings-revenues-surpass-estimates-104610134.html" target="_blank">
+              Agilent (A) Earnings and Revenues Surpass Estimates in Q4
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Zacks
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Nov-25-19 05:25PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/agilent-technologies-surpasses-q4-earnings-222510745.html" target="_blank">
+              Agilent Technologies (A) Surpasses Q4 Earnings and Revenue Estimates
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Zacks
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" width="130">
+             04:05PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/agilent-technologies-reports-fourth-quarter-210500186.html" target="_blank">
+              Agilent Technologies Reports Fourth-Quarter and Fiscal Year 2019 Financial Results
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Business Wire
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" width="130">
+             01:22PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/agilent-technologies-earnings-beat-revenue-182200016.html" target="_blank">
+              Agilent Technologies Earnings Beat, Revenue Misses In Q4
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Investing.com
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" width="130">
+             05:48AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/agilent-hikes-quarterly-dividend-reward-104810905.html" target="_blank">
+              Agilent (A) Hikes Quarterly Dividend to Reward Shareholders
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Zacks
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Nov-24-19 03:00PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://www.barrons.com/articles/best-buy-alibaba-deere-and-other-stocks-for-investors-to-watch-this-week-51574625600?siteid=yhoof2&amp;yptr=yahoo" target="_blank">
+              Best Buy, Alibaba, Deere and Other Stocks for Investors to Watch This Week
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Barrons.com
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Nov-23-19 08:00AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://www.barrons.com/articles/agilent-technologies-merck-m-t-bank-announced-dividend-hikes-51574514000?siteid=yhoof2&amp;yptr=yahoo" target="_blank">
+              Agilent Technologies, Merck, M&amp;T Bank Announced Dividend Hikes
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Barrons.com
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Nov-22-19 08:00PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://www.barrons.com/articles/shopping-is-a-bullish-activity-maybe-that-explains-why-stocks-tend-to-rise-around-thanksgiving-51574470801?siteid=yhoof2&amp;yptr=yahoo" target="_blank">
+              Shopping Is a Bullish Activity. Maybe That Explains Why Stocks Tend to Rise Around Thanksgiving
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Barrons.com
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" width="130">
+             08:43AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/agilent-companion-diagnostic-expands-ce-134300760.html" target="_blank">
+              Agilent Companion Diagnostic Expands CE-IVD mark in Europe to include Head and Neck Squamous Cell Carcinoma (HNSCC)
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Business Wire
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Nov-21-19 08:52AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/yes-time-market-november-21-135201754.html" target="_blank">
+              Yes, You Can Time the Market. Find out How - November 21, 2019
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Zacks
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" width="130">
+             08:00AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/agilent-announces-applications-open-labcentral-130000822.html" target="_blank">
+              Agilent Announces Applications Open for LabCentral Golden Ticket
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Business Wire
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Nov-20-19 04:13PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://www.marketwatch.com/story/agilent-raises-dividend-by-10-2019-11-20?siteid=yhoof2&amp;yptr=yahoo" target="_blank">
+              Agilent raises dividend by 10%
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              MarketWatch
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" width="130">
+             04:05PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/agilent-technologies-increases-cash-dividend-210500416.html" target="_blank">
+              Agilent Technologies Increases Cash Dividend to 18 Cents Per Share
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Business Wire
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" width="130">
+             08:23AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/agilent-gears-q4-earnings-whats-132301950.html" target="_blank">
+              Agilent (A) Gears Up for Q4 Earnings: What's in the Cards?
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Zacks
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Nov-19-19 08:00AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/agilent-announces-icp-oes-systems-130000708.html" target="_blank">
+              Agilent Announces New ICP-OES Systems with Innovative Instrument Intelligence
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Business Wire
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Nov-18-19 10:30AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/agilent-technologies-earnings-expected-grow-153003257.html" target="_blank">
+              Agilent Technologies (A) Earnings Expected to Grow: Should You Buy?
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Zacks
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" width="130">
+             05:56AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/qiagen-shares-surge-diagnostics-group-105618087.html" target="_blank">
+              Qiagen shares surge as diagnostics group says open to takeover talks
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Reuters
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Nov-16-19 12:00AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="http://news.morningstar.com/articlenet/article.aspx?id=956712&amp;SR=Yahoo&amp;yptr=yahoo" target="_blank">
+              The Week Ahead: Earnings From Home Depot, Target, Salesforce, and More
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Morningstar
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Nov-15-19 08:00AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/market-beating-sector-etfs-date-130001010.html" target="_blank">
+              Market-Beating Sector ETFs Year to Date
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Zacks
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Nov-12-19 12:56PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/kind-investor-owns-most-agilent-175600704.html" target="_blank">
+              What Kind Of Investor Owns Most Of Agilent Technologies, Inc. (NYSE:A)?
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Simply Wall St.
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Nov-11-19 02:30PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://www.bizjournals.com/phoenix/news/2019/11/11/coyotes-extend-general-manager-s-contract.html?ana=yahoo&amp;yptr=yahoo" target="_blank">
+              Coyotes extend general managers contract
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              American City Business Journals
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Nov-07-19 02:11PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://www.investopedia.com/how-liquidity-shortage-is-fueling-explosive-stock-swings-4775562?utm_campaign=quote-yahoo&amp;utm_source=yahoo&amp;utm_medium=referral&amp;yptr=yahoo" target="_blank">
+              How Liquidity Shortage is Fueling Explosive Stock Swings
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Investopedia
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Nov-06-19 12:00PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/agilent-named-one-top-10-170000837.html" target="_blank">
+              Agilent Named One of Top 10 Best Workplaces in Singapore
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Business Wire
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Nov-05-19 05:26PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/correcting-replacing-agilent-technologies-host-222600171.html" target="_blank">
+              CORRECTING and REPLACING Agilent Technologies to Host Conference Call to Review Fourth Quarter Fiscal Year 2019 Financial Results; Announces Schedule for Upcoming Webcasts
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Business Wire
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" width="130">
+             11:28AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://www.bizjournals.com/pittsburgh/news/2019/11/05/eqt-equitrans-inch-closer-to-a-renegotiation.html?ana=yahoo&amp;yptr=yahoo" target="_blank">
+              EQT, Equitrans inch closer to a renegotiation of its business relationship
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              American City Business Journals
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Nov-04-19 11:20AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/eaton-vance-worldwide-health-sciences-162044957.html" target="_blank">
+              Eaton Vance Worldwide Health Sciences Fund Buys 2 Stocks
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              GuruFocus.com
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" width="130">
+             11:00AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/agilent-technologies-host-conference-call-160000134.html" target="_blank">
+              Agilent Technologies to Host Conference Call to Review Fourth Quarter Fiscal Year 2019 Financial Results; Announces Schedule for Upcoming Webcasts
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Business Wire
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Nov-01-19 09:07AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/does-market-timing-actually-november-130701756.html" target="_blank">
+              When Does Market Timing Actually Work? - November 01, 2019
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Zacks
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Oct-27-19 08:33AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/does-agilent-technologiess-nyse-share-123313572.html" target="_blank">
+              Does Agilent Technologies's (NYSE:A) Share Price Gain of 74% Match Its Business Performance?
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Simply Wall St.
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Oct-24-19 11:25AM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://finance.yahoo.com/news/electronics-testing-equipment-outlook-solid-152503821.html" target="_blank">
+              Electronics Testing Equipment Outlook: Solid Demand Ahead
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Zacks
+             </span>
+            </td>
+           </tr>
+           <tr>
+            <td align="right" style="white-space:nowrap" width="130">
+             Oct-22-19 05:18PM
+            </td>
+            <td align="left">
+             <a class="tab-link-news" href="https://www.investors.com/research/ibd-stock-of-the-day/5g-wireless-networks-give-keystock-stock-lift/?src=A00220&amp;yptr=yahoo" target="_blank">
+              5G Wireless Networks Give This Communications Test Gear Maker A Lift
+             </a>
+             <span style="color:#aa6dc0;font-size:9px">
+              Investor's Business Daily
+             </span>
+            </td>
+           </tr>
+          </table>
+         </td>
+         <td style="padding-left: 10px" valign="top" width="300">
+          <script charset="utf-8" src="//ads.investingchannel.com/adtags/finviz/quotepages/300x250.js" type="text/javascript">
+          </script>
+          <div class="fullview-news-outer" id="stocktwits-widget-news">
+          </div>
+          <script src="//stocktwits.com/addon/widget/2/widget-loader.min.js" type="text/javascript">
+          </script>
+          <script type="text/javascript">
+           function StocktwitsInit() {
+                                        if(typeof STWT !== 'undefined') {
+                                            var quoteTicker = 'A';
+                                            var height = document.getElementById('news-table').clientHeight - (FinvizSettings.hasUserPremium ? 0 : 250)
+                                            STWT.Widget({
+                                                container: 'stocktwits-widget-news',
+                                                symbol: quoteTicker,
+                                                width: '300',
+                                                height: height,
+                                                limit: '15',
+                                                scrollbars: 0,
+                                                header: 0,
+                                                streaming: 'true',
+                                                style: { link_color: '4871a8', link_hover_color: '4871a8', header_text_color: '000000', border_color: 'transparent', border_color_2: 'transparent', divider_color: 'd3d3d3', divider_type: 'solid', box_color: 'transparent', stream_color: 'transparent', text_color: '000000', time_color: '999999', font: 'Verdana, Arial, Tahoma', font_size: 11, time_font_size: 10, username_font: 'Verdana, Arial, Tahoma', username_size: 11 }
+                                            });
+                                        }
+                                    }
+          </script>
+         </td>
+        </tr>
+       </table>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <img height="10" src="gfx/nic2x2.gif" width="685"/>
+      </td>
+     </tr>
+     <tr class="table-light3-row">
+      <td align="left" class="fullview-profile">
+       Agilent Technologies, Inc. provides application focused solutions to the life sciences, diagnostics, and applied chemical markets worldwide. It operates in three segments: Life Sciences and Applied Markets, Diagnostics and Genomics, and Agilent CrossLab. The Life Sciences and Applied Markets segment offers liquid and gas chromatography systems and components; liquid and gas chromatography mass spectrometry systems; inductively coupled plasma mass spectrometry instruments; atomic absorption instruments; microwave plasma-atomic emission spectrometry instruments; inductively coupled plasma optical emission spectrometry instruments; raman spectroscopy; cell analysis plate based assays; flow cytometer; real-time cell analyzer; cell imaging systems; microplate readers; laboratory software and information management and analytics; laboratory automation and robotic systems; dissolution testing; vacuum pumps; and measurement technologies. The Diagnostics and Genomics segment provides reagents, instruments, software, and consumables; arrays for DNA mutation detection, genotyping, gene copy number determination, identification of gene rearrangements, DNA methylation profiling, and gene expression profiling, as well as sequencing target enrichment, genetic data management, and interpretation support software; and equipment focused on production of synthesized oligonucleotides for use as active pharmaceutical ingredients. The Agilent CrossLab segment offers GC and LC columns, sample preparation products, custom chemistries, and laboratory instrument supplies; and startup, operational, training, compliance support, and software as a service, as well as asset management and consultation services. The company markets its products through direct sales, distributors, resellers, manufacturer's representatives, and electronic commerce. The company was founded in 1999 and is headquartered in Santa Clara, California.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <img height="10" src="gfx/nic2x2.gif" width="685"/>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <table bgcolor="#d3d3d3" border="0" cellpadding="2" cellspacing="0" class="body-table" width="100%">
+        <tr>
+         <td align="left" class="table-top-w">
+          Insider Trading
+         </td>
+         <td align="left" class="table-top-w">
+          Relationship
+         </td>
+         <td align="left" class="table-top-w">
+          Date
+         </td>
+         <td align="center" class="table-top-w">
+          Transaction
+         </td>
+         <td align="right" class="table-top-w">
+          Cost
+         </td>
+         <td align="right" class="table-top-w">
+          #Shares
+         </td>
+         <td align="right" class="table-top-w">
+          Value ($)
+         </td>
+         <td align="right" class="table-top-w">
+          #Shares Total
+         </td>
+         <td align="center" class="table-top-w">
+          SEC Form 4
+         </td>
+        </tr>
+        <tr class="insider-option-row" onmouseout="this.className='insider-option-row'" onmouseover="this.className='insider-light-row-h'" valign="top">
+         <td>
+          <a class="tab-link" href="insidertrading.ashx?oc=1614512&amp;tc=7">
+           Grau Dominique
+          </a>
+         </td>
+         <td style="white-space:nowrap">
+          Senior Vice President
+         </td>
+         <td>
+          Jan 17
+         </td>
+         <td align="center" style="white-space:nowrap">
+          Option Exercise
+         </td>
+         <td align="right">
+          26.19
+         </td>
+         <td align="right">
+          9,033
+         </td>
+         <td align="right">
+          236,574
+         </td>
+         <td align="right">
+          106,530
+         </td>
+         <td align="center" style="white-space:nowrap">
+          <a class="tab-link" href="http://www.sec.gov/Archives/edgar/data/1090872/000112760220002137/xslF345X03/form4.xml">
+           Jan 22 11:27 AM
+          </a>
+         </td>
+        </tr>
+        <tr class="insider-sale-row-2" onmouseout="this.className='insider-sale-row-2'" onmouseover="this.className='insider-light-row-h'" valign="top">
+         <td>
+          <a class="tab-link" href="insidertrading.ashx?oc=1614512&amp;tc=7">
+           Grau Dominique
+          </a>
+         </td>
+         <td style="white-space:nowrap">
+          Senior Vice President
+         </td>
+         <td>
+          Jan 17
+         </td>
+         <td align="center" style="white-space:nowrap">
+          Sale
+         </td>
+         <td align="right">
+          90.00
+         </td>
+         <td align="right">
+          9,033
+         </td>
+         <td align="right">
+          812,970
+         </td>
+         <td align="right">
+          97,497
+         </td>
+         <td align="center" style="white-space:nowrap">
+          <a class="tab-link" href="http://www.sec.gov/Archives/edgar/data/1090872/000112760220002137/xslF345X03/form4.xml">
+           Jan 22 11:27 AM
+          </a>
+         </td>
+        </tr>
+        <tr class="insider-sale-row-2" onmouseout="this.className='insider-sale-row-2'" onmouseover="this.className='insider-light-row-h'" valign="top">
+         <td>
+          <a class="tab-link" href="insidertrading.ashx?oc=1663020&amp;tc=7">
+           Tang Michael
+          </a>
+         </td>
+         <td style="white-space:nowrap">
+          SVP, General Counsel, and Sec.
+         </td>
+         <td>
+          Jan 10
+         </td>
+         <td align="center" style="white-space:nowrap">
+          Sale
+         </td>
+         <td align="right">
+          87.72
+         </td>
+         <td align="right">
+          5,000
+         </td>
+         <td align="right">
+          438,600
+         </td>
+         <td align="right">
+          67,167
+         </td>
+         <td align="center" style="white-space:nowrap">
+          <a class="tab-link" href="http://www.sec.gov/Archives/edgar/data/1090872/000112760220001493/xslF345X03/form4.xml">
+           Jan 14 12:03 PM
+          </a>
+         </td>
+        </tr>
+        <tr class="insider-sale-row-2" onmouseout="this.className='insider-sale-row-2'" onmouseover="this.className='insider-light-row-h'" valign="top">
+         <td>
+          <a class="tab-link" href="insidertrading.ashx?oc=1663020&amp;tc=7">
+           Tang Michael
+          </a>
+         </td>
+         <td style="white-space:nowrap">
+          SVP, General Counsel, and Sec.
+         </td>
+         <td>
+          Dec 30
+         </td>
+         <td align="center" style="white-space:nowrap">
+          Sale
+         </td>
+         <td align="right">
+          85.34
+         </td>
+         <td align="right">
+          5,000
+         </td>
+         <td align="right">
+          426,700
+         </td>
+         <td align="right">
+          72,167
+         </td>
+         <td align="center" style="white-space:nowrap">
+          <a class="tab-link" href="http://www.sec.gov/Archives/edgar/data/1090872/000112760220000060/xslF345X03/form4.xml">
+           Jan 02 02:40 PM
+          </a>
+         </td>
+        </tr>
+        <tr class="insider-option-row" onmouseout="this.className='insider-option-row'" onmouseover="this.className='insider-light-row-h'" valign="top">
+         <td>
+          <a class="tab-link" href="insidertrading.ashx?oc=1663020&amp;tc=7">
+           Tang Michael
+          </a>
+         </td>
+         <td style="white-space:nowrap">
+          SVP, General Counsel, and Sec.
+         </td>
+         <td>
+          Dec 20
+         </td>
+         <td align="center" style="white-space:nowrap">
+          Option Exercise
+         </td>
+         <td align="right">
+          40.80
+         </td>
+         <td align="right">
+          3,364
+         </td>
+         <td align="right">
+          137,251
+         </td>
+         <td align="right">
+          80,531
+         </td>
+         <td align="center" style="white-space:nowrap">
+          <a class="tab-link" href="http://www.sec.gov/Archives/edgar/data/1090872/000112760219035662/xslF345X03/form4.xml">
+           Dec 20 04:38 PM
+          </a>
+         </td>
+        </tr>
+        <tr class="insider-sale-row-2" onmouseout="this.className='insider-sale-row-2'" onmouseover="this.className='insider-light-row-h'" valign="top">
+         <td>
+          <a class="tab-link" href="insidertrading.ashx?oc=1663020&amp;tc=7">
+           Tang Michael
+          </a>
+         </td>
+         <td style="white-space:nowrap">
+          SVP, General Counsel, and Sec.
+         </td>
+         <td>
+          Dec 20
+         </td>
+         <td align="center" style="white-space:nowrap">
+          Sale
+         </td>
+         <td align="right">
+          85.00
+         </td>
+         <td align="right">
+          3,364
+         </td>
+         <td align="right">
+          285,940
+         </td>
+         <td align="right">
+          77,167
+         </td>
+         <td align="center" style="white-space:nowrap">
+          <a class="tab-link" href="http://www.sec.gov/Archives/edgar/data/1090872/000112760219035662/xslF345X03/form4.xml">
+           Dec 20 04:38 PM
+          </a>
+         </td>
+        </tr>
+        <tr class="insider-option-row" onmouseout="this.className='insider-option-row'" onmouseover="this.className='insider-light-row-h'" valign="top">
+         <td>
+          <a class="tab-link" href="insidertrading.ashx?oc=1614512&amp;tc=7">
+           Grau Dominique
+          </a>
+         </td>
+         <td style="white-space:nowrap">
+          Senior Vice President
+         </td>
+         <td>
+          Dec 12
+         </td>
+         <td align="center" style="white-space:nowrap">
+          Option Exercise
+         </td>
+         <td align="right">
+          27.19
+         </td>
+         <td align="right">
+          7,712
+         </td>
+         <td align="right">
+          209,689
+         </td>
+         <td align="right">
+          105,209
+         </td>
+         <td align="center" style="white-space:nowrap">
+          <a class="tab-link" href="http://www.sec.gov/Archives/edgar/data/1090872/000112760219034960/xslF345X03/form4.xml">
+           Dec 13 07:06 PM
+          </a>
+         </td>
+        </tr>
+        <tr class="insider-sale-row-2" onmouseout="this.className='insider-sale-row-2'" onmouseover="this.className='insider-light-row-h'" valign="top">
+         <td>
+          <a class="tab-link" href="insidertrading.ashx?oc=1614512&amp;tc=7">
+           Grau Dominique
+          </a>
+         </td>
+         <td style="white-space:nowrap">
+          Senior Vice President
+         </td>
+         <td>
+          Dec 12
+         </td>
+         <td align="center" style="white-space:nowrap">
+          Sale
+         </td>
+         <td align="right">
+          84.00
+         </td>
+         <td align="right">
+          7,712
+         </td>
+         <td align="right">
+          647,808
+         </td>
+         <td align="right">
+          97,497
+         </td>
+         <td align="center" style="white-space:nowrap">
+          <a class="tab-link" href="http://www.sec.gov/Archives/edgar/data/1090872/000112760219034960/xslF345X03/form4.xml">
+           Dec 13 07:06 PM
+          </a>
+         </td>
+        </tr>
+        <tr class="insider-sale-row-2" onmouseout="this.className='insider-sale-row-2'" onmouseover="this.className='insider-light-row-h'" valign="top">
+         <td>
+          <a class="tab-link" href="insidertrading.ashx?oc=1619051&amp;tc=7">
+           Doak Mark
+          </a>
+         </td>
+         <td style="white-space:nowrap">
+          Sr. Vice President
+         </td>
+         <td>
+          Dec 12
+         </td>
+         <td align="center" style="white-space:nowrap">
+          Sale
+         </td>
+         <td align="right">
+          84.50
+         </td>
+         <td align="right">
+          8,016
+         </td>
+         <td align="right">
+          677,386
+         </td>
+         <td align="right">
+          142,017
+         </td>
+         <td align="center" style="white-space:nowrap">
+          <a class="tab-link" href="http://www.sec.gov/Archives/edgar/data/1090872/000112760219034959/xslF345X03/form4.xml">
+           Dec 13 07:05 PM
+          </a>
+         </td>
+        </tr>
+        <tr class="insider-sale-row-2" onmouseout="this.className='insider-sale-row-2'" onmouseover="this.className='insider-light-row-h'" valign="top">
+         <td>
+          <a class="tab-link" href="insidertrading.ashx?oc=1614512&amp;tc=7">
+           Grau Dominique
+          </a>
+         </td>
+         <td style="white-space:nowrap">
+          Senior Vice President
+         </td>
+         <td>
+          Dec 11
+         </td>
+         <td align="center" style="white-space:nowrap">
+          Sale
+         </td>
+         <td align="right">
+          82.85
+         </td>
+         <td align="right">
+          15,000
+         </td>
+         <td align="right">
+          1,242,690
+         </td>
+         <td align="right">
+          97,498
+         </td>
+         <td align="center" style="white-space:nowrap">
+          <a class="tab-link" href="http://www.sec.gov/Archives/edgar/data/1090872/000112760219034913/xslF345X03/form4.xml">
+           Dec 12 08:37 PM
+          </a>
+         </td>
+        </tr>
+        <tr class="insider-option-row" onmouseout="this.className='insider-option-row'" onmouseover="this.className='insider-light-row-h'" valign="top">
+         <td>
+          <a class="tab-link" href="insidertrading.ashx?oc=1418949&amp;tc=7">
+           McMullen Michael R.
+          </a>
+         </td>
+         <td style="white-space:nowrap">
+          CEO and President
+         </td>
+         <td>
+          Dec 10
+         </td>
+         <td align="center" style="white-space:nowrap">
+          Option Exercise
+         </td>
+         <td align="right">
+          26.19
+         </td>
+         <td align="right">
+          24,636
+         </td>
+         <td align="right">
+          645,217
+         </td>
+         <td align="right">
+          576,298
+         </td>
+         <td align="center" style="white-space:nowrap">
+          <a class="tab-link" href="http://www.sec.gov/Archives/edgar/data/1090872/000112760219034961/xslF345X03/form4.xml">
+           Dec 13 07:08 PM
+          </a>
+         </td>
+        </tr>
+        <tr class="insider-option-row" onmouseout="this.className='insider-option-row'" onmouseover="this.className='insider-light-row-h'" valign="top">
+         <td>
+          <a class="tab-link" href="insidertrading.ashx?oc=1663020&amp;tc=7">
+           Tang Michael
+          </a>
+         </td>
+         <td style="white-space:nowrap">
+          SVP, General Counsel, and Sec.
+         </td>
+         <td>
+          Dec 10
+         </td>
+         <td align="center" style="white-space:nowrap">
+          Option Exercise
+         </td>
+         <td align="right">
+          40.80
+         </td>
+         <td align="right">
+          3,364
+         </td>
+         <td align="right">
+          137,251
+         </td>
+         <td align="right">
+          80,532
+         </td>
+         <td align="center" style="white-space:nowrap">
+          <a class="tab-link" href="http://www.sec.gov/Archives/edgar/data/1090872/000112760219034912/xslF345X03/form4.xml">
+           Dec 12 08:36 PM
+          </a>
+         </td>
+        </tr>
+        <tr class="insider-sale-row-2" onmouseout="this.className='insider-sale-row-2'" onmouseover="this.className='insider-light-row-h'" valign="top">
+         <td>
+          <a class="tab-link" href="insidertrading.ashx?oc=1418949&amp;tc=7">
+           McMullen Michael R.
+          </a>
+         </td>
+         <td style="white-space:nowrap">
+          CEO and President
+         </td>
+         <td>
+          Dec 10
+         </td>
+         <td align="center" style="white-space:nowrap">
+          Sale
+         </td>
+         <td align="right">
+          82.90
+         </td>
+         <td align="right">
+          24,636
+         </td>
+         <td align="right">
+          2,042,324
+         </td>
+         <td align="right">
+          551,662
+         </td>
+         <td align="center" style="white-space:nowrap">
+          <a class="tab-link" href="http://www.sec.gov/Archives/edgar/data/1090872/000112760219034961/xslF345X03/form4.xml">
+           Dec 13 07:08 PM
+          </a>
+         </td>
+        </tr>
+        <tr class="insider-sale-row-2" onmouseout="this.className='insider-sale-row-2'" onmouseover="this.className='insider-light-row-h'" valign="top">
+         <td>
+          <a class="tab-link" href="insidertrading.ashx?oc=1663020&amp;tc=7">
+           Tang Michael
+          </a>
+         </td>
+         <td style="white-space:nowrap">
+          SVP, General Counsel, and Sec.
+         </td>
+         <td>
+          Dec 10
+         </td>
+         <td align="center" style="white-space:nowrap">
+          Sale
+         </td>
+         <td align="right">
+          82.90
+         </td>
+         <td align="right">
+          3,364
+         </td>
+         <td align="right">
+          278,876
+         </td>
+         <td align="right">
+          77,168
+         </td>
+         <td align="center" style="white-space:nowrap">
+          <a class="tab-link" href="http://www.sec.gov/Archives/edgar/data/1090872/000112760219034912/xslF345X03/form4.xml">
+           Dec 12 08:36 PM
+          </a>
+         </td>
+        </tr>
+        <tr class="insider-option-row" onmouseout="this.className='insider-option-row'" onmouseover="this.className='insider-light-row-h'" valign="top">
+         <td>
+          <a class="tab-link" href="insidertrading.ashx?oc=1418949&amp;tc=7">
+           McMullen Michael R.
+          </a>
+         </td>
+         <td style="white-space:nowrap">
+          CEO and President
+         </td>
+         <td>
+          Nov 25
+         </td>
+         <td align="center" style="white-space:nowrap">
+          Option Exercise
+         </td>
+         <td align="right">
+          26.19
+         </td>
+         <td align="right">
+          24,636
+         </td>
+         <td align="right">
+          645,217
+         </td>
+         <td align="right">
+          576,299
+         </td>
+         <td align="center" style="white-space:nowrap">
+          <a class="tab-link" href="http://www.sec.gov/Archives/edgar/data/1090872/000112760219034961/xslF345X03/form4.xml">
+           Dec 13 07:08 PM
+          </a>
+         </td>
+        </tr>
+        <tr class="insider-sale-row-2" onmouseout="this.className='insider-sale-row-2'" onmouseover="this.className='insider-light-row-h'" valign="top">
+         <td>
+          <a class="tab-link" href="insidertrading.ashx?oc=1418949&amp;tc=7">
+           McMullen Michael R.
+          </a>
+         </td>
+         <td style="white-space:nowrap">
+          CEO and President
+         </td>
+         <td>
+          Nov 25
+         </td>
+         <td align="center" style="white-space:nowrap">
+          Sale
+         </td>
+         <td align="right">
+          80.00
+         </td>
+         <td align="right">
+          24,636
+         </td>
+         <td align="right">
+          1,970,880
+         </td>
+         <td align="right">
+          551,663
+         </td>
+         <td align="center" style="white-space:nowrap">
+          <a class="tab-link" href="http://www.sec.gov/Archives/edgar/data/1090872/000112760219034961/xslF345X03/form4.xml">
+           Dec 13 07:08 PM
+          </a>
+         </td>
+        </tr>
+        <tr class="insider-option-row" onmouseout="this.className='insider-option-row'" onmouseover="this.className='insider-light-row-h'" valign="top">
+         <td>
+          <a class="tab-link" href="insidertrading.ashx?oc=1619051&amp;tc=7">
+           Doak Mark
+          </a>
+         </td>
+         <td style="white-space:nowrap">
+          Sr. Vice President
+         </td>
+         <td>
+          Nov 15
+         </td>
+         <td align="center" style="white-space:nowrap">
+          Option Exercise
+         </td>
+         <td align="right">
+          21.53
+         </td>
+         <td align="right">
+          6
+         </td>
+         <td align="right">
+          129
+         </td>
+         <td align="right">
+          95,912
+         </td>
+         <td align="center" style="white-space:nowrap">
+          <a class="tab-link" href="http://www.sec.gov/Archives/edgar/data/1090872/000112760219033305/xslF345X03/form4.xml">
+           Nov 19 08:04 PM
+          </a>
+         </td>
+        </tr>
+        <tr class="insider-sale-row-2" onmouseout="this.className='insider-sale-row-2'" onmouseover="this.className='insider-light-row-h'" valign="top">
+         <td>
+          <a class="tab-link" href="insidertrading.ashx?oc=1014330&amp;tc=7">
+           FIELDS HEIDI
+          </a>
+         </td>
+         <td style="white-space:nowrap">
+          Director
+         </td>
+         <td>
+          Sep 20
+         </td>
+         <td align="center" style="white-space:nowrap">
+          Sale
+         </td>
+         <td align="right">
+          78.56
+         </td>
+         <td align="right">
+          4,000
+         </td>
+         <td align="right">
+          314,256
+         </td>
+         <td align="right">
+          7,311
+         </td>
+         <td align="center" style="white-space:nowrap">
+          <a class="tab-link" href="http://www.sec.gov/Archives/edgar/data/1014330/000112760219029024/xslF345X03/form4.xml">
+           Sep 24 04:44 PM
+          </a>
+         </td>
+        </tr>
+        <tr class="insider-option-row" onmouseout="this.className='insider-option-row'" onmouseover="this.className='insider-light-row-h'" valign="top">
+         <td>
+          <a class="tab-link" href="insidertrading.ashx?oc=1418949&amp;tc=7">
+           McMullen Michael R.
+          </a>
+         </td>
+         <td style="white-space:nowrap">
+          CEO and President
+         </td>
+         <td>
+          Sep 12
+         </td>
+         <td align="center" style="white-space:nowrap">
+          Option Exercise
+         </td>
+         <td align="right">
+          26.19
+         </td>
+         <td align="right">
+          24,635
+         </td>
+         <td align="right">
+          645,191
+         </td>
+         <td align="right">
+          463,949
+         </td>
+         <td align="center" style="white-space:nowrap">
+          <a class="tab-link" href="http://www.sec.gov/Archives/edgar/data/1090872/000112760219028485/xslF345X03/form4.xml">
+           Sep 16 05:02 PM
+          </a>
+         </td>
+        </tr>
+        <tr class="insider-sale-row-2" onmouseout="this.className='insider-sale-row-2'" onmouseover="this.className='insider-light-row-h'" valign="top">
+         <td>
+          <a class="tab-link" href="insidertrading.ashx?oc=1418949&amp;tc=7">
+           McMullen Michael R.
+          </a>
+         </td>
+         <td style="white-space:nowrap">
+          CEO and President
+         </td>
+         <td>
+          Sep 12
+         </td>
+         <td align="center" style="white-space:nowrap">
+          Sale
+         </td>
+         <td align="right">
+          77.50
+         </td>
+         <td align="right">
+          24,635
+         </td>
+         <td align="right">
+          1,909,213
+         </td>
+         <td align="right">
+          439,314
+         </td>
+         <td align="center" style="white-space:nowrap">
+          <a class="tab-link" href="http://www.sec.gov/Archives/edgar/data/1090872/000112760219028485/xslF345X03/form4.xml">
+           Sep 16 05:02 PM
+          </a>
+         </td>
+        </tr>
+        <tr class="insider-sale-row-2" onmouseout="this.className='insider-sale-row-2'" onmouseover="this.className='insider-light-row-h'" valign="top">
+         <td>
+          <a class="tab-link" href="insidertrading.ashx?oc=1014330&amp;tc=7">
+           FIELDS HEIDI
+          </a>
+         </td>
+         <td style="white-space:nowrap">
+          Director
+         </td>
+         <td>
+          Aug 30
+         </td>
+         <td align="center" style="white-space:nowrap">
+          Sale
+         </td>
+         <td align="right">
+          70.96
+         </td>
+         <td align="right">
+          4,000
+         </td>
+         <td align="right">
+          283,856
+         </td>
+         <td align="right">
+          11,311
+         </td>
+         <td align="center" style="white-space:nowrap">
+          <a class="tab-link" href="http://www.sec.gov/Archives/edgar/data/1014330/000112760219027928/xslF345X03/form4.xml">
+           Sep 04 06:06 PM
+          </a>
+         </td>
+        </tr>
+        <tr class="insider-option-row" onmouseout="this.className='insider-option-row'" onmouseover="this.className='insider-light-row-h'" valign="top">
+         <td>
+          <a class="tab-link" href="insidertrading.ashx?oc=1663020&amp;tc=7">
+           Tang Michael
+          </a>
+         </td>
+         <td style="white-space:nowrap">
+          SVP, General Counsel, and Sec.
+         </td>
+         <td>
+          Mar 27
+         </td>
+         <td align="center" style="white-space:nowrap">
+          Option Exercise
+         </td>
+         <td align="right">
+          39.13
+         </td>
+         <td align="right">
+          6,728
+         </td>
+         <td align="right">
+          263,278
+         </td>
+         <td align="right">
+          63,793
+         </td>
+         <td align="center" style="white-space:nowrap">
+          <a class="tab-link" href="http://www.sec.gov/Archives/edgar/data/1090872/000112760219013477/xslF345X03/form4.xml">
+           Mar 28 01:44 PM
+          </a>
+         </td>
+        </tr>
+        <tr class="insider-sale-row-2" onmouseout="this.className='insider-sale-row-2'" onmouseover="this.className='insider-light-row-h'" valign="top">
+         <td>
+          <a class="tab-link" href="insidertrading.ashx?oc=1663020&amp;tc=7">
+           Tang Michael
+          </a>
+         </td>
+         <td style="white-space:nowrap">
+          SVP, General Counsel, and Sec.
+         </td>
+         <td>
+          Mar 27
+         </td>
+         <td align="center" style="white-space:nowrap">
+          Sale
+         </td>
+         <td align="right">
+          80.50
+         </td>
+         <td align="right">
+          6,728
+         </td>
+         <td align="right">
+          541,604
+         </td>
+         <td align="right">
+          57,065
+         </td>
+         <td align="center" style="white-space:nowrap">
+          <a class="tab-link" href="http://www.sec.gov/Archives/edgar/data/1090872/000112760219013477/xslF345X03/form4.xml">
+           Mar 28 01:44 PM
+          </a>
+         </td>
+        </tr>
+        <tr class="insider-sale-row-2" onmouseout="this.className='insider-sale-row-2'" onmouseover="this.className='insider-light-row-h'" valign="top">
+         <td>
+          <a class="tab-link" href="insidertrading.ashx?oc=1222248&amp;tc=7">
+           CLARK PAUL N
+          </a>
+         </td>
+         <td style="white-space:nowrap">
+          Director
+         </td>
+         <td>
+          Mar 27
+         </td>
+         <td align="center" style="white-space:nowrap">
+          Sale
+         </td>
+         <td align="right">
+          80.31
+         </td>
+         <td align="right">
+          2,823
+         </td>
+         <td align="right">
+          226,715
+         </td>
+         <td align="right">
+          88,857
+         </td>
+         <td align="center" style="white-space:nowrap">
+          <a class="tab-link" href="http://www.sec.gov/Archives/edgar/data/1090872/000112760219013351/xslF345X03/form4.xml">
+           Mar 27 02:28 PM
+          </a>
+         </td>
+        </tr>
+        <tr class="insider-option-row" onmouseout="this.className='insider-option-row'" onmouseover="this.className='insider-light-row-h'" valign="top">
+         <td>
+          <a class="tab-link" href="insidertrading.ashx?oc=1642192&amp;tc=7">
+           Gonsalves Rodney
+          </a>
+         </td>
+         <td style="white-space:nowrap">
+          V.P., Corporate Controller
+         </td>
+         <td>
+          Mar 06
+         </td>
+         <td align="center" style="white-space:nowrap">
+          Option Exercise
+         </td>
+         <td align="right">
+          39.79
+         </td>
+         <td align="right">
+          5,000
+         </td>
+         <td align="right">
+          198,960
+         </td>
+         <td align="right">
+          39,380
+         </td>
+         <td align="center" style="white-space:nowrap">
+          <a class="tab-link" href="http://www.sec.gov/Archives/edgar/data/1090872/000112760219010464/xslF345X03/form4.xml">
+           Mar 07 07:04 PM
+          </a>
+         </td>
+        </tr>
+        <tr class="insider-sale-row-2" onmouseout="this.className='insider-sale-row-2'" onmouseover="this.className='insider-light-row-h'" valign="top">
+         <td>
+          <a class="tab-link" href="insidertrading.ashx?oc=1642192&amp;tc=7">
+           Gonsalves Rodney
+          </a>
+         </td>
+         <td style="white-space:nowrap">
+          V.P., Corporate Controller
+         </td>
+         <td>
+          Mar 06
+         </td>
+         <td align="center" style="white-space:nowrap">
+          Sale
+         </td>
+         <td align="right">
+          79.79
+         </td>
+         <td align="right">
+          6,155
+         </td>
+         <td align="right">
+          491,107
+         </td>
+         <td align="right">
+          33,225
+         </td>
+         <td align="center" style="white-space:nowrap">
+          <a class="tab-link" href="http://www.sec.gov/Archives/edgar/data/1090872/000112760219010464/xslF345X03/form4.xml">
+           Mar 07 07:04 PM
+          </a>
+         </td>
+        </tr>
+        <tr class="insider-option-row" onmouseout="this.className='insider-option-row'" onmouseover="this.className='insider-light-row-h'" valign="top">
+         <td>
+          <a class="tab-link" href="insidertrading.ashx?oc=1614512&amp;tc=7">
+           Grau Dominique
+          </a>
+         </td>
+         <td style="white-space:nowrap">
+          Senior Vice President
+         </td>
+         <td>
+          Mar 01
+         </td>
+         <td align="center" style="white-space:nowrap">
+          Option Exercise
+         </td>
+         <td align="right">
+          27.19
+         </td>
+         <td align="right">
+          7,711
+         </td>
+         <td align="right">
+          209,662
+         </td>
+         <td align="right">
+          102,196
+         </td>
+         <td align="center" style="white-space:nowrap">
+          <a class="tab-link" href="http://www.sec.gov/Archives/edgar/data/1090872/000112760219009876/xslF345X03/form4.xml">
+           Mar 05 02:23 PM
+          </a>
+         </td>
+        </tr>
+        <tr class="insider-sale-row-2" onmouseout="this.className='insider-sale-row-2'" onmouseover="this.className='insider-light-row-h'" valign="top">
+         <td>
+          <a class="tab-link" href="insidertrading.ashx?oc=1418949&amp;tc=7">
+           McMullen Michael R.
+          </a>
+         </td>
+         <td style="white-space:nowrap">
+          CEO and President
+         </td>
+         <td>
+          Mar 01
+         </td>
+         <td align="center" style="white-space:nowrap">
+          Sale
+         </td>
+         <td align="right">
+          80.00
+         </td>
+         <td align="right">
+          8,745
+         </td>
+         <td align="right">
+          699,600
+         </td>
+         <td align="right">
+          438,939
+         </td>
+         <td align="center" style="white-space:nowrap">
+          <a class="tab-link" href="http://www.sec.gov/Archives/edgar/data/1090872/000112760219009880/xslF345X03/form4.xml">
+           Mar 05 02:35 PM
+          </a>
+         </td>
+        </tr>
+        <tr class="insider-sale-row-2" onmouseout="this.className='insider-sale-row-2'" onmouseover="this.className='insider-light-row-h'" valign="top">
+         <td>
+          <a class="tab-link" href="insidertrading.ashx?oc=1614512&amp;tc=7">
+           Grau Dominique
+          </a>
+         </td>
+         <td style="white-space:nowrap">
+          Senior Vice President
+         </td>
+         <td>
+          Mar 01
+         </td>
+         <td align="center" style="white-space:nowrap">
+          Sale
+         </td>
+         <td align="right">
+          80.00
+         </td>
+         <td align="right">
+          7,711
+         </td>
+         <td align="right">
+          616,880
+         </td>
+         <td align="right">
+          94,485
+         </td>
+         <td align="center" style="white-space:nowrap">
+          <a class="tab-link" href="http://www.sec.gov/Archives/edgar/data/1090872/000112760219009876/xslF345X03/form4.xml">
+           Mar 05 02:23 PM
+          </a>
+         </td>
+        </tr>
+       </table>
+      </td>
+     </tr>
+     <tr>
+      <td width="100%">
+       <img alt="" border="0" height="10" src="gfx/nic2x2.gif" width="2"/>
+      </td>
+     </tr>
+     <tr valign="bottom">
+      <td align="center">
+       <table border="0" cellpadding="0" cellspacing="0">
+        <tr>
+         <td align="left" class="fullview-links" valign="center">
+          <a class="tab-link" href="http://finance.yahoo.com/q?s=A" target="_blank">
+           open in yahoo
+          </a>
+          |
+          <a class="tab-link" href="http://stocks.us.reuters.com/stocks/overview.asp?symbol=A" target="_blank">
+           open in reuters
+          </a>
+          |
+          <a class="tab-link" href="http://finance.google.com/finance?q=NYSE:A" target="_blank">
+           open in google
+          </a>
+         </td>
+        </tr>
+       </table>
+      </td>
+     </tr>
+     <tr>
+      <td width="100%">
+       <img alt="" border="0" height="10" src="gfx/nic2x2.gif" width="2"/>
+      </td>
+     </tr>
+    </table>
+   </td>
+  </tr>
+  <script src="/js/dist/runtime.bundle.js?rev=137" type="text/javascript">
+  </script>
+  <script src="/js/dist/vendors.bundle.js?rev=137" type="text/javascript">
+  </script>
+  <script src="/js/dist/header.bundle.js?rev=137" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   SearchFocus();
+  </script>
+  <script>
+   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-3261808-1', 'auto', { sampleRate: 50 });
+                ga('set', 'dimension1', 'NotLoggedIn');
+                
+                ga('send', 'pageview');
+  </script>
+  <script type="text/javascript">
+   _qoptions={qacct:"p-c2W8esUZ6Q8oA"};
+  </script>
+  <script src="https://secure.quantserve.com/quant.js" type="text/javascript">
+  </script>
+  <noscript>
+   <img alt="Quantcast" border="0" height="1" src="https://pixel.quantserve.com/pixel/p-c2W8esUZ6Q8oA.gif" style="display: none;" width="1"/>
+  </noscript>
+  <script type="text/javascript">
+   (function() {
+                    var bannerScript = document.createElement('script');
+
+                    if (document.body.clientWidth >= 1260) {
+                        bannerScript.onload = function () {
+                            var microbarScript = document.createElement('script');
+                            microbarScript.src = '//ads.investingchannel.com/adtags/finviz/qtsearch/88x31.js?kval=qtsearch';
+                            var microbar = document.getElementById('microbar_position');
+                            microbar.appendChild(microbarScript);
+                            microbar.style.marginLeft = '6px';
+                        };
+                    }
+            bannerScript.onerror = function() {
+                var banners = ['2', '4', '5', '6', '7'];
+                var banner = banners[Math.floor(Math.random() * banners.length)];
+
+                if (typeof intICJsTile === 'undefined') {
+                    if (banner === '3') {
+                        document.getElementById('banner_position').innerHTML = '<iframe src="/img/a/' + banner + '/index.html?rev=2" frameBorder="0" width="728" height="90"></iframe>';
+                    } else {
+                        document.getElementById('banner_position').innerHTML = '<a href="/elite.ashx?utm_source=finviz&utm_medium=banner&utm_campaign=' + banner + '"><img src="/img/a/' + banner + '.jpg"></a>';
+                    }
+                    ga && ga('send', 'event', 'banner', 'impression', banner, {'nonInteraction': 1});
+                }
+            };
+        
+                    bannerScript.src = '//ads.investingchannel.com/adtags/finviz/quotes/728x90.js?t=a';
+                            
+                    var banner = document.getElementById('banner_position');
+                    banner.appendChild(bannerScript);
+                })();
+  </script>
+  <div class="modal-elite-ad" id="modal-elite-ad">
+   <div class="modal-elite-ad_content" id="modal-elite-ad_content">
+    <button class="modal-elite-ad_close" id="modal-elite-ad-close" type="button">
+     ×
+    </button>
+    <!--<div id="modal-elite-ad-content-0" style="display: none">
+			                        <h2>Ever heard of Finviz*Elite?</h2>
+                                    <p>
+                                        Our premium service offers you real-time quotes, advanced visualizations, technical studies, and much more.<br>
+                                        Become Elite and make informed financial decisions.
+                                    </p>
+                                    <a href="/elite.ashx?utm_source=finviz&utm_medium=banner&utm_campaign=modal-0" id="modal-elite-ad-btn-0" class="" target="_blank">Find out more</a>
+                                </div>-->
+    <div id="modal-elite-ad-content-1" style="display: block">
+     <h2>
+      Upgrade your FINVIZ experience
+     </h2>
+     <p>
+      Join thousands of traders who make more informed decisions with our premium features.
+                                        Real-time quotes, advanced visualizations, backtesting, and much more.
+     </p>
+     <a class="modal-elite_button" href="/elite.ashx?utm_source=finviz&amp;utm_medium=banner&amp;utm_campaign=modal-1" id="modal-elite-ad-btn-1" target="_blank">
+      Learn more about FINVIZ*Elite
+     </a>
+    </div>
+   </div>
+  </div>
+  <script async="" src="/js/pv.js?rev=137">
+  </script>
+  <script src="/script/libs/bowser.min.js?rev=137" type="text/javascript">
+  </script>
+ </body>
+</html>
