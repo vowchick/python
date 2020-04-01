@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = 'https://finviz.com/quote.ashx?t=A&ty=c&p=d&b=1'
+url = 'https://finviz.com/quote.ashx?t=AACG&ty=c&p=d&b=1'
 
 r = requests.get (url)
 
