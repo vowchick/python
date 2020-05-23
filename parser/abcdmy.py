@@ -1,10 +1,10 @@
 import requests
 from bs4 import BeautifulSoup
-
+import os
+import datetime
 def get_html (url):
   r = requests.get (url)
   return r.text         ## возвращает html - код страницы
-
 
 def get_all_links (html):
   soup = BeautifulSoup (html, 'lxml')
@@ -18,10 +18,21 @@ def get_all_links (html):
   return links
 
 
-def get_all_the_contents(num, url):
+def write_in_file (a, ds):
+  file = open (a, 'w+')
+  for d in ds:
+      file.write (d['ticker'])
+      file.write (' ')
+      file.write (d['title'])
+      file.write (' ')
+      file.write (d['Price'])
+      file.write ('\n')
+  file.close ()
+
+def get_all_the_contents(num, url, url2):
   a = -21
   d = []
-  b = "?v=111&f=fa_debteq_u0.5,fa_epsyoy_pos,fa_pb_u3,fa_pc_low,fa_pe_low,fa_pfcf_low,fa_ps_u3&ft=2&r="
+  b = url2
   for i in range (num):
     a = a + 20
     all_links = get_all_links (get_html (url + b + str (a)))
@@ -55,6 +66,12 @@ def parse_int_link (html):
     texxt = texxt + tx + ' '
   d['title'] = texxt
   return d
+
+
+def create_dir (today):
+  a = today.strftime("%Y/%m")
+  if not os.path.exists(a):
+    os.makedirs(a)
 
 #url = 'https://finviz.com/quote.ashx?t=A&ty=c&p=d&b=1'
 
